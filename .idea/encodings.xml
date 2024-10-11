@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/behavior/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/behavior/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/CustomBuilder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/CustomBuilder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/FluentBuilder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/FluentBuilder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/GenericBuilder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/GenericBuilder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structual/bridge/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structual/bridge/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structual/decorator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structual/decorator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structual/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structual/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
