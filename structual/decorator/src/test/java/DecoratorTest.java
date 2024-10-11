@@ -11,16 +11,20 @@ public class DecoratorTest {
         ICoffee coffee = new OriginalCoffee();
         coffee.makeCoffee();
         System.out.println("");
-
         //加奶
-        coffee = new MilkDecorator(coffee);
+        ICoffee milkCoffee = new MilkDecorator(new OriginalCoffee());
         coffee.makeCoffee();
         System.out.println("");
-
         //加糖
-        coffee = new SugarDecorator(coffee);
+        ICoffee sugarCoffee = new SugarDecorator(new OriginalCoffee());
         coffee.makeCoffee();
         System.out.println("");
-
+        //加糖奶咖啡
+        ICoffee sugarMilkCoffee = new SugarDecorator(
+                new MilkDecorator(
+                        new OriginalCoffee()
+                )
+        );
+        coffee.makeCoffee();
     }
 }

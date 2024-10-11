@@ -1,6 +1,6 @@
 package person.freeman.Bridge;
 
-public class Sugar implements  ICoffeeAdditives{
+public class Sugar implements IAdditive {
 
     public Sugar() {
         addSomething();

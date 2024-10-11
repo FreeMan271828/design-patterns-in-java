@@ -2,8 +2,8 @@ package person.freeman.Bridge;
 
 public class LargeCoffee extends Coffee {
 
-    public LargeCoffee(ICoffeeAdditives coffeeAdditives) {
-        super(coffeeAdditives);
+    public LargeCoffee(IAdditive coffeeAdditives, ITemperature coffeeTemperature) {
+        super(coffeeAdditives, coffeeTemperature);
     }
 
     @Override

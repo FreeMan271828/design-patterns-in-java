@@ -5,11 +5,13 @@ package person.freeman.Bridge;
  */
 public abstract class Coffee {
 
-    protected ICoffeeAdditives coffeeAdditives;
+    protected IAdditive coffeeAdditives;
+    protected ITemperature coffeeTemperature;
 
     //使用构造函数注入ICoffeeAdditive,也就是桥接口味和容量
-    public Coffee(ICoffeeAdditives coffeeAdditives) {
+    public Coffee(IAdditive coffeeAdditives, ITemperature coffeeTemperature) {
         this.coffeeAdditives = coffeeAdditives;
+        this.coffeeTemperature = coffeeTemperature;
     }
 
     public abstract void orderCoffee(int count);
