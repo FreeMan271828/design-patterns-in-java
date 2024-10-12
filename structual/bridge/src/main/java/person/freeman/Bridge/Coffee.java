@@ -1,7 +1,7 @@
 package person.freeman.Bridge;
 
 /**
- * 将咖啡的容量作为抽象化部分, 因为要变化的多
+ * 将咖啡的容量作为抽象化部分(大杯，中杯...)，作为本质
  */
 public abstract class Coffee {
 
